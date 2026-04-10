@@ -1,4 +1,10 @@
 package com.hotel.demo.dto;
 
-public class ReservationDTO {
-}
+import java.time.LocalDate;
+
+public record ReservationDTO(
+        String guestName,
+        String roomType,
+        LocalDate checkInDate,
+        LocalDate checkOutDate
+) {}
