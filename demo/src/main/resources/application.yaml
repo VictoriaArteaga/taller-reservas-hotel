@@ -1,6 +1,11 @@
+server:
+  port: 8080
+
 spring:
   application:
-    name: demo
+    name: hotel-reservation-system
 
-server:
-  port: ${PORT:8080}
+  # Configuración de CORS
+  web:
+    cors:
+      allowed-origins: "*"
