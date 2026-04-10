@@ -1,3 +1,5 @@
+// Patron facade.
+
 package com.hotel.demo.facade;
 
 import com.hotel.demo.dto.ReservationDTO;
